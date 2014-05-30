@@ -453,8 +453,8 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
          closeDrawerAnimated:animated
          completion:^(BOOL finished) {
              if (forwardAppearanceMethodsToCenterViewController) {
-                 [self.centerViewController endAppearanceTransition];
-                 [self.centerViewController didMoveToParentViewController:self];
+//                 [self.centerViewController endAppearanceTransition];
+//                 [self.centerViewController didMoveToParentViewController:self];
              }
              if(completion){
                  completion(finished);
